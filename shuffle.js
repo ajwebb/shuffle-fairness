@@ -18,7 +18,6 @@
 	    return array;
 	};
 
-
 	/**
 	 * Check if a given shuffle function is a fair.
 	 * @param shuffleFunction {Function} A function that takes an array as an argument. It shuffles arrays.
@@ -30,8 +29,6 @@
 	    // Compute whether or not the shuffle is fair. This may require calling shuffleFunction multiple times.
 	    var isFair = false;
 
-
-
 	    return isFair;
 	};
 
@@ -42,10 +39,6 @@
 	// logging shuffled array
 	var shuffledArray = shuffle(array);
 	console.log('ShuffledArary: ' + array);
-
-
-
-
 
 	// tests for determining fairness of shuffle function
 	var isClearlyUnfairShuffleFair = isShuffleFair(clearlyUnfairShuffle);
